@@ -1,8 +1,8 @@
 ---
-title: "Getting and Cleaning Data- Peer Assessment Project"
-author: "Lynn"
-date: "Saturday, May 23, 2015"
-output: html_document
+# "Getting and Cleaning Data- Peer Assessment Project"
+_Lynn_
+Saturday, May 23, 2015
+
 ---
 
 This file describes how run_analysis.R works.
