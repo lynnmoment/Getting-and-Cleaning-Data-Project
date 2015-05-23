@@ -1,11 +1,12 @@
 ---
-title: "Codebook"
-author: "Lynn"
-date: "Saturday, May 23, 2015"
-output: html_document
+# Codebook
+
+_Lynn_
+Saturday, May 23, 2015
+
 ---
 
-# Data Cleaning
+## Data Cleaning
 
 The R script run_analysis.R performs the following steps to clean and generate tidy data sets as the project description requires.
 
@@ -18,7 +19,7 @@ The R script run_analysis.R performs the following steps to clean and generate t
 * Calculate the average of each variable for each activity and each subject and save it to a new data set using summarise_each() from dplyr package
 * Save the second tidy data set as a text file and name it data_mean.txt
 
-# Data Sets
+## Data Sets
 
 The following data sets are generated in the data cleaning process:
 
