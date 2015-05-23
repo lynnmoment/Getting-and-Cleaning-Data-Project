@@ -1,0 +1,21 @@
+---
+title: "Getting and Cleaning Data- Peer Assessment Project"
+author: "Lynn"
+date: "Saturday, May 23, 2015"
+output: html_document
+---
+
+This file describes how run_analysis.R works.
+
+* Download the data from [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
+
+* Unzip and rename it "Data"
+
+* Make sure the "Data" folder is in the Working Directory
+
+* Run the run_analysis file in Rstudio
+
+* You will find two text files generated in the Working Directory
+    + data.txt: the tidy data set generated from step 4
+    + data_mean.txt: the tidy data set generated from step 5
+

@@ -1,0 +1,31 @@
+---
+title: "Codebook"
+author: "Lynn"
+date: "Saturday, May 23, 2015"
+output: html_document
+---
+
+# Data Cleaning
+
+The R script run_analysis.R performs the following steps to clean and generate tidy data sets as the project description requires.
+
+* Read the train and test data sets and labels into R and name them accordingly
+* Merge the train and test data using rbind() and generate data frames data, datalabel and datasubject
+* Read features.txt into R and extract only columns with mean and standard deviation using grep()
+* Read activity_labels.txt into R and change the name of datalabel accordingly
+* Merge datasubject, datalabel and data together, using cbind()
+* Use write.table() to save the tidy data set as a text file and name it data.txt
+* Calculate the average of each variable for each activity and each subject and save it to a new data set using summarise_each() from dplyr package
+* Save the second tidy data set as a text file and name it data_mean.txt
+
+# Data Sets
+
+The following data sets are generated in the data cleaning process:
+
+* data: merge training set and test set together
+* datalabel: merge training labels and test labels together
+* datasubject: merge training subjects and test subjects together
+* features: the correct column names for "data"
+* activity: read activity_labels into R; correct activity names
+* finaldata: final tidy data set in step 4
+* finaldatamean<-final tidy data set in step 5
