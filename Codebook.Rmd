@@ -30,4 +30,4 @@ The following data sets are generated in the data cleaning process:
 * features: the correct column names for "data"
 * activity: read activity_labels into R; correct activity names
 * finaldata: final tidy data set in step 4
-* finaldatamean<-final tidy data set in step 5
+* finaldatamean: final tidy data set in step 5
